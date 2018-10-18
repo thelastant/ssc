@@ -1,0 +1,21 @@
+{
+  "name": "public_html_pc",
+  "authors": [
+    ""
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/static/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pickadate": "^3.5.6"
+  }
+}

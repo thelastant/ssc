@@ -1,0 +1,255 @@
+$color-success: #1a9637;
+$color-error: #d60000;
+$color-green: #00897B;
+$color-danger: #9f060f;
+$color-warning: #ffb122;
+$color-info: #039BE5;
+$color-default: #2F4056;
+
+$color-gray-100: #fbfbfb;
+$color-gray-200: #f2f2f2;
+$color-gray-300: #eeeeee;
+$color-gray-400: #e2e2e2;
+$color-gray-500: #dddddd;
+$color-gray-600: #d2d2d2;
+$color-gray-700: #c2c2c2;
+$color-gray-1000: #777777;
+
+/********EY-UI START*********/
+html {
+  font: 500 14px/20px "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: #fff;
+  color: #444;
+}
+
+.empty-tips {
+  line-height: 50px;
+  text-align: center;
+}
+
+.ey-ui-widget {
+  display: block;
+  width: 100%;
+  .ey-ui-widget-header {
+    display: block;
+    min-height: 25px;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: left;
+    background-color: $color-gray-200;
+  }
+  .ey-ui-widget-content {
+    display: block;
+    min-height: 10px;
+    background-color: #fff;
+  }
+}
+
+.ey-ui-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  .ey-ui-flex-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+  }
+}
+
+.ey-ui-display-block {
+  display: block;
+}
+
+.ey-ui-badge {
+  display: inline-block;
+  padding: .15em .4em;
+  min-width: 8px;
+  border-radius: 18px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.ey-ui-tag {
+  height: 20px;
+  min-width: 20px;
+  background-color: #fff;
+  color: #000;
+  line-height: 20px;
+  padding: 5px;
+  font-size: 11px;
+  &.ey-ui-tag-success {
+    background-color: $color-success;
+    color: #fff;
+  }
+  &.ey-ui-tag-error {
+    background-color: $color-error;
+    color: #fff;
+  }
+}
+
+.ey-w-float-right {
+  float: right;
+}
+
+.ey-w-float-left {
+  float: left;
+}
+
+/****color***/
+.ey-c-color-black {
+  color: #000;
+}
+
+.ey-c-color-red {
+  color: red;
+}
+
+.ey-bc-color-red {
+  background-color: red;
+  color: #fff;
+}
+
+.ey-bc-color-green {
+  background-color: green;
+  color: #fff;
+}
+
+.ey-c-color-green {
+  color: green;
+}
+
+.ey-c-color-black {
+  color: #000;
+}
+
+/*color -version .2*/
+.ey-c-success {
+  color: $color-success;
+}
+
+.ey-c-danger {
+  color: $color-danger;
+}
+
+.ey-c-error {
+  color: $color-error;
+}
+
+.ey-c-color-green {
+  color: $color-green;
+}
+
+.ey-c-color-gray {
+  color: $color-gray-1000;
+}
+
+.ey-c-warning {
+  color: $color-warning;
+}
+
+.ey-c-default {
+  color: $color-default;
+}
+
+.ey-c-info {
+  color: $color-info;
+}
+
+.ey-c-href-color {
+  color: #00a0e9;
+}
+
+/*bg  -version .1   START*/
+.ey-bg-success {
+  background-color: $color-success;
+}
+.ey-bg-blue {
+  background-color: $color-info;
+  color: #fff;
+}
+.ey-bg-yellow{
+  background-color: $color-warning;
+  color: #fff;
+}
+
+.ey-bg-danger {
+  background-color: $color-error;
+}
+
+.ey-bg-warning {
+  background-color: $color-warning;
+}
+
+/*bg -version .1  END*/
+
+/*font*/
+
+.ey-f-bold {
+  font-weight: bold;
+}
+
+.ey-fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.ey-fixed-top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+.ey-nav-bar {
+  height: 30px;
+  width: 100%;
+  background: #000;
+}
+
+.ey-tab-bar {
+  background: #fff;
+  border-top: 1px solid #bfbfbf;
+  display: block;
+  width: 100%;
+
+  .ey-nav-tabs {
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    height: 60px;
+    overflow: hidden;
+    list-style: none;
+    li {
+      float: right;
+      flex: 1;
+      -webkit-flex: 1;
+      -moz-flex: 1;
+      -ms-flex: 1;
+      margin: 0;
+      position: relative;
+      width: 25%;
+      text-align: center;
+      vertical-align: middle;
+      border: none;
+      a {
+        line-height: 20px;
+        color: #636363;
+        font-size: 11px;
+        padding: 5px;
+        display: block;
+        border: none;
+        text-align: center;
+      }
+    }
+  }
+}

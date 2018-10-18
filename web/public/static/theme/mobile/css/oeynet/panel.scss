@@ -1,0 +1,33 @@
+.ey-panel {
+  background-color: #e2e2e2;
+  padding: 3px;
+  padding-left: 10px;
+  .panel-title {
+    h5 {
+      height: 30px;
+      line-height: 30px;
+      color: #000;
+      margin: 0;
+    }
+  }
+}
+
+.ey-panel-content {
+  background-color: #fff;
+  .list {
+    li {
+      .change {
+        margin-right: 20px;
+        float: right;
+        width: 14%;
+        color: #097bd5;
+        .fa {
+          color: #ddd;
+          font-size: 22px;
+          font-weight: 400;
+          padding-left: 6px;
+        }
+      }
+    }
+  }
+}

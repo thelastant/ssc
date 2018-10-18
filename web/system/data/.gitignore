@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea
+*.md
+*/logo.png
+log/*
+cache/*
+_runtime/*
+logs/*

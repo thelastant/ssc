@@ -1,0 +1,12 @@
+.mui-bar.mui-bar-nav {
+  background: rgba(0, 0, 0, 0.88); }
+  .mui-bar.mui-bar-nav * {
+    color: #fff; }
+.mui-bar.mui-bar-tab {
+  background: rgba(0, 0, 0, 0.88); }
+.mui-bar .mui-tab-item {
+  color: #fff; }
+  .mui-bar .mui-tab-item.mui-active {
+    color: #d08604; }
+
+/*# sourceMappingURL=bar.css.map */

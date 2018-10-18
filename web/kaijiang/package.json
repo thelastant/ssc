@@ -1,0 +1,18 @@
+{
+  "name": "kj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "dependencies": {
+    "log4js": "^1.1.1",
+    "moment": "^2.17.1",
+    "mysql": "^2.13.0",
+    "seedrandom": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "QQ:209900956",
+  "license": "ISC"
+}

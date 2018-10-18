@@ -1,0 +1,15 @@
+{
+  "name": "lottery_system/client_version",
+  "authors": [
+    {
+      "name": "",
+      "email": "lottery@email.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "1.0.*",
+    "smarty/smarty": "~3.1",
+    "simplon/mysql": "*",
+    "catfan/Medoo": "^1.2"
+  }
+}

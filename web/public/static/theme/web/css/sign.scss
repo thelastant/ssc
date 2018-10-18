@@ -1,0 +1,196 @@
+body, input, button {
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+a, input, button {
+  -webkit-transition: all .218s linear;
+  -moz-transition: all .218s linear;
+  transition: all .218s linear;
+  outline: 0
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #555;
+  background: url("../images/login-bg.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+a {
+  text-decoration: none
+}
+
+#sign-box {
+  .sign-footer {
+    background: rgba(0, 0, 0, 0.80);
+    padding: 20px 15px;
+    color: #fff;
+    border-top: 3px solid #fff;
+  }
+  .sign-body {
+    margin-top: 10%;
+    background: rgba(0, 0, 0, 0.80);
+    padding: 20px;
+    .logo-box {
+      text-align: center;
+      display: block;
+    }
+    .action-title {
+      text-align: center;
+      color: #fff;
+      display: none;
+    }
+    .logo {
+      width: 250px;
+      display: block;
+      height: 110px;
+      background: url("../images/logo.png") no-repeat;
+      background-size: 100% 100%;
+      margin: 0 auto;
+    }
+    .gd-line {
+      color: #fff;
+      line-height: 50px;
+      text-align: center;
+    }
+    form {
+      #submit {
+        margin: 10px;
+      }
+      .form-group {
+        position: relative;
+        height: 46px;
+        line-height: 46px;
+        background: #ffffff;
+        margin: 0 0 20px 0;
+        padding-left: 32px;
+        border-radius: 3px;
+      }
+      .icon {
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        top: 0;
+        left: 0;
+        text-align: center;
+        color: #cbcbcb;
+        font-size: 18px;
+      }
+      .form-control, .form-control:focus, .form-control:hover, .form-control:-webkit-autofill {
+        width: 100%;
+        border: none;
+        background: none;
+        height: 46px;
+        font-size: 14px;
+        color: #444444;
+        box-shadow: none;
+      }
+    }
+    .xy {
+      font-weight: normal;
+      max-width: 100%;
+      margin-bottom: 5px;
+    }
+    .verify-box {
+      position: relative;
+    }
+
+    .verify-img {
+      right: 0;
+      position: absolute;
+      height: 46px;
+      width: 100px;
+      cursor: pointer;
+      border-left: 0;
+      top: 0;
+    }
+
+  }
+}
+
+.mui-switch {
+  width: 52px;
+  height: 31px;
+  position: relative;
+  border: 1px solid #dfdfdf;
+  background-color: #fdfdfd;
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none;
+}
+
+.mui-switch:before {
+  content: '';
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.mui-switch:checked {
+  border-color: #36acee;
+  box-shadow: #36acee 0 0 0 16px inset;
+  background-color: #36acee;
+}
+
+.mui-switch:checked:before {
+  left: 21px;
+}
+
+.mui-switch.mui-switch-animbg {
+  transition: background-color ease 0.4s;
+}
+
+.mui-switch.mui-switch-animbg:before {
+  transition: left 0.3s;
+}
+
+.mui-switch.mui-switch-animbg:checked {
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  background-color: #36acee;
+  transition: border-color 0.4s, background-color ease 0.4s;
+}
+
+.mui-switch.mui-switch-animbg:checked:before {
+  transition: left 0.3s;
+}
+
+.mui-switch.mui-switch-anim {
+  transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+
+.mui-switch.mui-switch-anim:before {
+  transition: left 0.3s;
+}
+
+.mui-switch.mui-switch-anim:checked {
+  box-shadow: #36acee 0 0 0 16px inset;
+  background-color: #36acee;
+  transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+
+.mui-switch.mui-switch-anim:checked:before {
+  transition: left 0.3s;
+}
